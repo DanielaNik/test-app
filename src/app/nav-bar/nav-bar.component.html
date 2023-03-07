@@ -1,8 +1,11 @@
 <div class="topnav">
-    <a >About </a>
-    <a id="cities">Discover by city
-        <ul>
-            <li></li>
-        </ul>
-    </a>
+ <mat-toolbar>
+    <button mat-raised-button color="warn">About</button>
+    <span id="cities">
+    <button mat-raised-button color="warn">Discover by city</button>
+    <ul>
+     <!-- <li *ngFor="let city of cities">{{city}}</li>  -->
+    </ul>
+    </span>
+</mat-toolbar>
 </div>
